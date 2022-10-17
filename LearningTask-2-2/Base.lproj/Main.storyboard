@@ -181,7 +181,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="117" height="140"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Seringa" translatesAutoresizingMaskIntoConstraints="NO" id="Wje-81-5BT" userLabel="Image View Vacina">
-                                                <rect key="frame" x="20" y="0.0" width="85" height="85"/>
+                                                <rect key="frame" x="16" y="0.0" width="85" height="85"/>
                                                 <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="Wje-81-5BT" secondAttribute="height" multiplier="1:1" id="My7-rN-q2v"/>
@@ -194,7 +194,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vacinas" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uso-nO-lIZ" userLabel="Label Vacinas">
-                                                <rect key="frame" x="20" y="97" width="85" height="17"/>
+                                                <rect key="frame" x="16" y="97" width="85" height="17"/>
                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -202,12 +202,12 @@
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
-                                            <constraint firstItem="Wje-81-5BT" firstAttribute="leading" secondItem="zov-kq-Frn" secondAttribute="leading" constant="20" id="DVm-dy-9re"/>
+                                            <constraint firstItem="Wje-81-5BT" firstAttribute="leading" secondItem="zov-kq-Frn" secondAttribute="leading" constant="16" id="DVm-dy-9re"/>
                                             <constraint firstItem="uso-nO-lIZ" firstAttribute="top" secondItem="Wje-81-5BT" secondAttribute="bottom" constant="12" id="EYD-dv-epA"/>
                                             <constraint firstItem="Wje-81-5BT" firstAttribute="top" secondItem="zov-kq-Frn" secondAttribute="top" id="Icy-aI-Goc"/>
                                             <constraint firstItem="uso-nO-lIZ" firstAttribute="width" secondItem="Wje-81-5BT" secondAttribute="width" id="K24-wf-iPm"/>
                                             <constraint firstItem="uso-nO-lIZ" firstAttribute="centerX" secondItem="Wje-81-5BT" secondAttribute="centerX" id="aIi-Rs-Y6O"/>
-                                            <constraint firstAttribute="trailing" secondItem="Wje-81-5BT" secondAttribute="trailing" constant="12" id="v4V-Z9-Jdc"/>
+                                            <constraint firstAttribute="trailing" secondItem="Wje-81-5BT" secondAttribute="trailing" constant="16" id="v4V-Z9-Jdc"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6B3-Tb-3fJ" userLabel="View Exames">
@@ -259,8 +259,8 @@
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
                                                 </userDefinedRuntimeAttributes>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Medicamentos" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ugf-VG-LNL" userLabel="Label Medicamentos">
-                                                <rect key="frame" x="16" y="97" width="85" height="33.666666666666657"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Medicamentos" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Ugf-VG-LNL" userLabel="Label Medicamentos">
+                                                <rect key="frame" x="16" y="97" width="85" height="17"/>
                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
